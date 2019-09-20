@@ -15,5 +15,3 @@ gem 'middleman-favicon-maker'
 gem 'actionview', '>= 5.0.7.2'
 
 # Assets
-# gem 'bootstrap', '~> 4.3.1'
-# gem 'jquery-middleman'
