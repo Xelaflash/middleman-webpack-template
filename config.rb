@@ -6,13 +6,9 @@ set :fonts_dir,  'assets/fonts'
 set :images_dir, 'assets/images'
 set :js_dir,     'assets/javascripts'
 
-
-
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
-
-# activate :sprockets
 
 activate :external_pipeline,
   name: :webpack,
@@ -37,6 +33,7 @@ configure :build do
   activate :minify_css
   # ------ We commented this command as it prevented us to deploy our Middleman project on GitHub Pages ------
   # activate :minify_javascript
+  activate :minify_html, remove_input_attributes: false
   activate :asset_hash
   activate :relative_assets
   set :relative_links, true

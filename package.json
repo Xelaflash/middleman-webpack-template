@@ -1,9 +1,9 @@
 {
-  "name": "trident_freedivers",
+  "name": "Middleman-webpack-template",
   "version": "1.0.0",
-  "description": "Trident freedivers website",
+  "description": "template",
   "main": "index.js",
-  "repository": "https://github.com/Xelaflash/trident_freedivers",
+  "repository": "https://github.com/Xelaflash/middleman-webpack-template",
   "author": "agros",
   "license": "MIT",
   "devDependencies": {
