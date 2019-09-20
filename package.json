@@ -1,5 +1,5 @@
 {
-  "name": "Middleman-webpack-template",
+  "name": "middleman-webpack-template",
   "version": "1.0.0",
   "description": "template",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "devDependencies": {
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
+    "@fortawesome/fontawesome-free": "^5.11.1",
     "babel-loader": "^8.0.6",
     "css-loader": "^2.1.1",
     "eslint": "^5.16.0",
