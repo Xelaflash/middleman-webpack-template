@@ -1,5 +1,5 @@
 # Middleman Template
-Template with Bootsrap 4 and webpack
+Template with Bootsrap 4 + font awesome and webpack
 
 
 ## Authors
