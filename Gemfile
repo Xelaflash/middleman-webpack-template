@@ -12,6 +12,6 @@ gem 'dotenv-rails', groups: [:development, :test]
 gem 'middleman-favicon-maker'
 
 # Fix critical github warning
-# gem 'actionview', '>= 5.2.4.2'
+# gem 'actionview', '~> 5.2.4'
 
 # Assets
